@@ -1,0 +1,48 @@
+{
+    "Example":{
+         "1": "Welcome",
+         "2": "Translate",
+         "3": "Trial"
+         
+    },
+    "chooseLang": {
+        "gumb" : "Language",
+        "lang1" : "English",
+        "lang2" : "Slovenian",
+        "lang3" : "Spanish"
+    },
+    "landingPage" : {
+        "naslov" : "Shots & Ladders",
+        "textp1" : "Be drunk or be not drunk? With this board game in your hands, it's no longer a question!",
+        "test" : "Countdown to the kickstarter campaign:"
+    },
+    "newspaperCard" : {
+        "naslov" : "Shots & Ladders",
+        "textp1" : "Be drunk or be not drunk? With this board game in your hands, it's no longer a question!",
+        "test" : "Only Eng?"
+    },
+     "menuLines": 
+         [ 
+            {
+                "text" : "HOME",
+                "link" : "/en"
+            },
+            {
+                "text" : "BLOG",
+                "link" : "/en/blog"
+            },
+           {
+               "text" : "SHOP",
+               "link" : "/en/shop"
+           },
+            {
+                "text" : "CONTACT",
+                "link" : "/en/contact"
+            }
+       
+         ]
+     
+        
+    }
+    
+

@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face { font-family: arlbold; src: url('/public/fonts/arlrdbd.ttf'); }
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.phoneMenuIcon {
+  @apply absolute  text-5xl transition-all duration-300
+}
+.myclass { 
+  /* all anchor styles */
+}
+.myclass_hover:hover {
+  /* example color */
+  
+}
+.spiral {
+  background-image: url("/public/images/Spiral_Background.png");
+  background-size: cover;
+  background-position: 50% 32%;
+  background-repeat: no-repeat;
+}
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(6);
+}
+.parallax__layer--base {
+  transform: translateZ(-1);
+}
+.playingField {
+  position: relative;
+  overflow: hidden;
+ 
+}
+.playingField::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: -50%;
+  left: -50%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/public/images/play_Board.jpg");
+  transform: scaleY(-45);
+}
+.teeest {
+  transform-box: rotateX(40deg);
+}
+
+.iphone-x {
+  position: relative;
+  margin: auto;
+  width: 320px;
+  height: 700px;
+  background-color: #7371ee;
+  background-image: url("/public/images/Spiral_Background.png");
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #111;
+}
+.iphone-x:before, .iphone-x:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.iphone-x:after {
+  bottom: 7px;
+  width: 140px;
+  height: 4px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.iphone-x:before {
+  top: 0px;
+  width: 56%;
+  height: 30px;
+  background-color: #1f1f1f;
+  border-radius: 0px 0px 40px 40px;
+}
+.iphone-x i, .iphone-x b, .iphone-x s, .iphone-x span {
+  position: absolute;
+  display: block;
+  color: transparent;
+}
+.iphone-x i {
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, 6px);
+  height: 8px;
+  width: 15%;
+  background-color: #101010;
+  border-radius: 8px;
+  box-shadow: inset 0px -3px 3px 0px rgba(255, 255, 255, 0.2);
+}
+.iphone-x b {
+  left: 10%;
+  top: 0px;
+  transform: translate(180px, 4px);
+  width: 12px;
+  height: 12px;
+  background-color: #101010;
+  border-radius: 12px;
+  box-shadow: inset 0px -3px 2px 0px rgba(255, 255, 255, 0.2);
+}
+.iphone-x b:after {
+  content: '';
+  position: absolute;
+  background-color: #2d4d76;
+  width: 6px;
+  height: 6px;
+  top: 2px;
+  left: 2px;
+  top: 3px;
+  left: 3px;
+  display: block;
+  border-radius: 4px;
+  box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+}
+.iphone-x s {
+  
+  
+}
+.iphone-x span {
+  bottom: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  left: 30px;
+}
+.iphone-x span + span {
+  left: auto;
+  right: 30px;
+}

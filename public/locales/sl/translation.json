@@ -1,0 +1,38 @@
+
+{
+    "Example":{
+         "1": "Dobrodošli",
+         "2": "Prevod",
+         "3": "testiranje"
+    },
+    "chooseLang": {
+        "gumb" : "Jezik",
+        "lang1" : "Angleščina",
+        "lang2" : "Slovenščina",
+        "lang3" : "Spanščina"
+    },
+    "landingPage" : {
+        "naslov" : "Shots & Ladders",
+        "textp1" : "Biti pijan ali ne biti pijan? S shots and ladders to ni več vprašanje !"
+    },
+    "menuLines": 
+    [
+        {
+            "text" : "HOME",
+            "link" : "/sl"
+        },
+        {
+            "text" : "BLOG",
+            "link" : "/sl/blog"
+        },
+       {
+           "text" : "SHOP",
+           "link" : "/sl/shop"
+       },
+       {
+           "text" : "CONTACT",
+           "link" : "/sl/contact"
+       }
+  
+    ]
+}
